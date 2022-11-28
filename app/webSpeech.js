@@ -24,7 +24,7 @@ function validateAttemp(attempt) {
         ? `<div>Você disse:</div><span class="box" id="numero-atual">${attempt}</span><div>O número é <b>maior</b></div>` 
         : `<div>Você disse:</div><span class="box" id="numero-atual">${attempt}</span><div>O número é <b>menor</b></div>`
     } else {
-        return `<div class="invalido">Valor inválido</div><span class="box" id="numero-atual">${attempt}</span>`;
+        return `<div class="invalido">Valor inválido</div><span class="box" id="numero-atual">${attempt}</span><div>Diga um número válido!</b></div>`;
     }
 }
 
