@@ -29,7 +29,6 @@ function validateAttemp(attempt) {
 }
 
 recognition.addEventListener("end", () => recognition.start());
-
 document.body.addEventListener('click', e => {
     if (e.target.id == 'newGame') {
         window.location.reload()
